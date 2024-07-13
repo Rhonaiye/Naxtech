@@ -16,22 +16,22 @@ const Navbar = ()=>{
         
       return (
         
-        <div className="bg-blue-950 text-white flex p-3 md:p-0 items-center fixed left-0 right-0 top-0 z-50 md:static   md:pl-3">
+        <div className="bg-blue-950 text-white flex p-3 md:p-0 items-center fixed left-0 right-0 top-0 z-50 md:static justify-between  md:pl-3">
             
            
-        <div className={isClose? "" : "flex gap-10"}>
+        <div className={isClose? "" : "flex gap-10 "}>
 
-          <div className="flex flex-row md:ml-3">
-           <Image src="/Images/Logo.svg" width={100} height={50}/>
-             
+          <div className="flex md:ml-3 i ">
+           <Image src="/Images/Logo.svg" width={100} height={50}/>   
 
-           
-
-           <div className="  md:hidden ml-[210px]">
-           <Hamburger toggled={isClose} toggle={setIclose} /> 
+           <div className="md:hidden ml-[55vw]">
+           <Hamburger toggled={isClose} toggle={setIclose} className="" /> 
            </div>
 
            </div>
+
+         
+
 
            
 
