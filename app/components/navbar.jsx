@@ -4,11 +4,7 @@ import { useState, useEffect } from "react"
 
 import Hamburger from 'hamburger-react'
 
-import React, { Component } from 'react';
-import AOS from 'aos';
-import 'aos/dist/aos.css';
-'aos/dist/aos.css';
-import '/Users/mac/Desktop/Naxtech/nax/app/globals.css';
+
 
 
 
@@ -16,9 +12,7 @@ import '/Users/mac/Desktop/Naxtech/nax/app/globals.css';
 const Navbar = ()=>{
     const [isClose, setIclose] = useState(false);
 
-    useEffect(() => {
-        AOS.init();
-      }, []);
+ 
         
       return (
         
